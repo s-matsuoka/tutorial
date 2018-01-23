@@ -1,0 +1,16 @@
+library(mefa4)
+library(pbapply)
+library(gbm)
+	
+setwd("Q:/Tudor Share 01/Landbirds/CAE project/Phase 2 - 2015-2019/IEM/bcr4")
+load("bcr4-data.RData")	
+
+#create data
+x <- c(1:10)
+x
+
+#
+y <- rnorm(length(x), x, 1)
+y
+
+plot(x,y)
